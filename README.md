@@ -22,6 +22,7 @@ from CarPricePredictor import CarPricePredictor
 model = CarPricePredictor()
 predicted_price = model.predict_single_input(sample)
 ```
+
 ## Overview
 
 This machine learning project focuses on predicting car prices based on various features, providing a tool for estimating the fair market value of a vehicle. The project utilizes the XGBoost regression algorithm for accurate predictions.

@@ -1,1 +1,1 @@
-from .model import CarPricePredictor
+from model import CarPricePredictor
