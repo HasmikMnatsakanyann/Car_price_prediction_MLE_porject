@@ -20,7 +20,7 @@ sample = {
             }
 from CarPricePredictor import CarPricePredictor
 model = CarPricePredictor()
-predicted_price = price_predictor.predict_single_input(sample)
+predicted_price = model.predict_single_input(sample)
 ```
 ## Overview
 
