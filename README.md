@@ -6,6 +6,22 @@ Ensure you have the required dependencies installed using the following:
 ```bash
 pip install git+https://github.com/HasmikMnatsakanyann/Car_price_prediction_MLE_porject
 ```
+
+## Usage example
+```bash
+sample = {
+"Car": "Toyota Camry",
+"Vehicle Type": "Sedan",
+"Wheel left/right": "Left",
+"Color": "Red",
+"Transmission": "Automatic",
+"Mileage": 50000,
+"Year": 2018
+            }
+from CarPricePredictor import CarPricePredictor
+model = CarPricePredictor()
+predicted_price = price_predictor.predict_single_input(sample)
+```
 ## Overview
 
 This machine learning project focuses on predicting car prices based on various features, providing a tool for estimating the fair market value of a vehicle. The project utilizes the XGBoost regression algorithm for accurate predictions.
